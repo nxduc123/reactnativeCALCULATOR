@@ -18,3 +18,5 @@ require("../lib/swisscalc.calc.calculator.js");
 //
 
 <img src="./calculator_view.jpg">
+
+Here we go don't forget to give me an stars thanks
