@@ -25,6 +25,6 @@ export default class CalcButton extends React.Component {
 }
 
 const styles = StyleSheet.create({
-    container: { alignItems: "center", justifyContent: "center", width: 72, height:72,borderRadius:40, margin: 5},
+    container: { alignItems: "center", justifyContent: "center", width: 70, height:70,borderRadius:40, margin: 5},
     text: { fontSize: 35, fontWeight: "bold", },
 });

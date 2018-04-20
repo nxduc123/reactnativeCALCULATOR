@@ -9,7 +9,7 @@ require("../lib/swisscalc.calc.calculator.js");
 //
 
 import React from 'react';
-import { StyleSheet, Text, View, PanResponder, Dimensions } from 'react-native';
+import { StyleSheet, Text, View, PanResponder, Dimensions, StatusBar } from 'react-native';
 import {CalcButton} from './../components';
 import {CalcDisplay} from './../components';
 
@@ -79,7 +79,10 @@ onUnaryOperatorPress = (operator) => {
 renderPortrait() {
     return (
         <View style={{flex:1}}>
-            
+        <StatusBar
+        backgroundColor="blue"
+        barStyle="light-content"
+        />
                 <View style={styles.containerMain}>
                 <View style={{flex:1, justifyContent: "flex-end"}} {...this.panResponder.panHandlers}>
                     <CalcDisplay display={this.state.display} />
