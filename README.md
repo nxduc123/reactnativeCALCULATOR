@@ -1,4 +1,7 @@
-# reactnativeCALCULATOR
+# reactnative CALCULATOR
+#1. SETUP
+- npm install
+- npm start
 APP CALCULATOR for Android and IOS 
 
 - EXPO
